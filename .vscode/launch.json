@@ -1,0 +1,22 @@
+{
+	"configurations": [
+		{
+			"type": "swift",
+			"request": "launch",
+			"args": [],
+			"cwd": "${workspaceFolder:merge-main}",
+			"name": "Debug MergeMain",
+			"program": "${workspaceFolder:merge-main}/.build/debug/MergeMain",
+			"preLaunchTask": "swift: Build Debug MergeMain"
+		},
+		{
+			"type": "swift",
+			"request": "launch",
+			"args": [],
+			"cwd": "${workspaceFolder:merge-main}",
+			"name": "Release MergeMain",
+			"program": "${workspaceFolder:merge-main}/.build/release/MergeMain",
+			"preLaunchTask": "swift: Build Release MergeMain"
+		}
+	]
+}
